@@ -1,8 +1,8 @@
 <script>
     import { metatags } from '@roxi/routify'
     
-    metatags.title = 'My Routify app'
-    metatags.description = 'Description coming soon...'
+    metatags.title = 'Pink App'
+    metatags.description = 'Final;y it is working'
 </script>
 
 <h1>Routify Starter Template</h1>

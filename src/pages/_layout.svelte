@@ -1,2 +1,8 @@
 <!-- routify:options preload="proximity" -->
-<slot />
+<script>
+    import "@lib/app.css";
+</script>
+
+<main>
+    <slot />
+</main>
