@@ -1,0 +1,21 @@
+{
+  "name": "svelte_routify_starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:routify": "routify",
+    "dev:vite": "vite",
+    "build:vite": "vite build",
+    "build": "routify -b && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@roxi/routify": "^2.18.8",
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "npm-run-all": "^4.1.5",
+    "svelte": "^3.49.0",
+    "vite": "^3.0.0"
+  }
+}
